@@ -1,7 +1,7 @@
 import { useState } from "react"
 import RegisterLoginButton from "../components/RegisterLoginButton"
 import axios from "axios"
-import { useAsyncError, useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import { toast } from 'react-hot-toast'
 
 function Register() {
@@ -30,7 +30,7 @@ function Register() {
     }
   }
 
-  const [showPassword, setShowPassword] = useState(false)
+  // const [showPassword, setShowPassword] = useState(false)
 
   return (
     <div className="font-sans text-gray-900 antialiased">
