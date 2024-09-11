@@ -11,22 +11,27 @@ function Login() {
     password: '',
   });
 
-  const loginUser = async (e) => {
+  // const loginUser = async (e) => {
+  //   e.preventDefault()
+  //   const { email, password } = data
+  //   try {
+  //     const {data} = await axios.post('/login', { email, password })
+  //     if (data.error) {
+  //       toast.error(data.error)
+  //     } else {
+  //       setData({})
+  //       toast.success('Login success. Welcome!')
+  //       navigate('/')
+  //     }
+  //   } catch (error) {
+  //     console.log(error)
+  //   }
+  // };
+
+  const loginUser = (e) => {
     e.preventDefault()
-    const { email, password } = data
-    try {
-      const {data} = await axios.post('/login', { email, password })
-      if (data.error) {
-        toast.error(data.error)
-      } else {
-        setData({})
-        toast.success('Login success. Welcome!')
-        navigate('/')
-      }
-    } catch (error) {
-      console.log(error)
-    }
-  };
+    axios.get('/')
+  }
 
   const [showPassword, setShowPassword] = useState(false);
 

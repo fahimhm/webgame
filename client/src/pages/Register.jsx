@@ -30,11 +30,9 @@ function Register() {
     }
   }
 
-  // const [showPassword, setShowPassword] = useState(false)
-
   return (
     <div className="font-sans text-gray-900 antialiased">
-      <div className="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-[#f8f4f3]">
+      <div className="h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-[#f8f4f3]">
         <div>
           <h2 className="font-bold text-3xl">FAHIM&apos;s <span className="bg-[#f84525] text-white px-2 rounded-md">PORTFOLIO</span></h2>
         </div>
