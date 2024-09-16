@@ -98,3 +98,5 @@ public
 
 # Windows files
 Thumbs.db
+
+.env
