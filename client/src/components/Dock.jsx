@@ -26,7 +26,7 @@ export default function Dock() {
     <div
       onMouseMove={(e) => mouseX.set(e.pageX)}
       onMouseLeave={() => mouseX.set(Infinity)}
-      className="flex h-16 items-end gap-4 rounded-xl px-4 pb-3 bg-gray-700">
+      className="flex items-end h-16 gap-4 px-4 pb-3 bg-secondaryBg rounded-xl">
       {[...Array(6).keys()].map((i) => (
         <Tooltip key={i} description={description[i]}>
           <AppIcon mouseX={mouseX} index={i} />
@@ -50,7 +50,7 @@ function AppIcon({ mouseX, index }) {
     <motion.div
       ref={ref}
       style={{ width, backgroundColor }}
-      className="aspect-square w-10 rounded-full bg-gray-500 flex items-center justify-center"
+      className="flex items-center justify-center w-10 rounded-full bg-secondaryAcc aspect-square"
     >
       {index === 0 ? (
           <motion.div style={{width, height: width}}>
