@@ -80,6 +80,111 @@ export const ContactIcon = ({height, width, props}) => (
   </svg>
 );
 
+export const HomeIcon = ({height, width, props}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    fill="none"
+    stroke="#fff"
+    viewBox="0 0 24 24"
+    {...props}
+  >
+    <g stroke="#fff" strokeLinecap="round" strokeWidth={1.5}>
+      <path d="M22 12.204v1.521c0 3.9 0 5.851-1.172 7.063C19.657 22 17.771 22 14 22h-4c-3.771 0-5.657 0-6.828-1.212C2 19.576 2 17.626 2 13.725v-1.521c0-2.289 0-3.433.52-4.381.518-.949 1.467-1.537 3.364-2.715l2-1.241C9.889 2.622 10.892 2 12 2c1.108 0 2.11.622 4.116 1.867l2 1.241c1.897 1.178 2.846 1.766 3.365 2.715M15 18H9" />
+    </g>
+  </svg>
+);
+
+export const ProjectIcon = ({height, width, props}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    fill="none"
+    stroke="#fff"
+    viewBox="0 0 24 24"
+    {...props}
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={1.5}
+      d="M8 6.5h8M7.705 8.71l4.578 6.593M4.6 9h1.8c.56 0 .84 0 1.054-.109a1 1 0 0 0 .437-.437C8 8.24 8 7.96 8 7.4V5.6c0-.56 0-.84-.109-1.054a1 1 0 0 0-.437-.437C7.24 4 6.96 4 6.4 4H4.6c-.56 0-.84 0-1.054.109a1 1 0 0 0-.437.437C3 4.76 3 5.04 3 5.6v1.8c0 .56 0 .84.109 1.054a1 1 0 0 0 .437.437C3.76 9 4.04 9 4.6 9Zm9 11h1.8c.56 0 .84 0 1.054-.109a1 1 0 0 0 .437-.437C17 19.24 17 18.96 17 18.4v-1.8c0-.56 0-.84-.109-1.054a1 1 0 0 0-.437-.437C16.24 15 15.96 15 15.4 15h-1.8c-.56 0-.84 0-1.054.109a1 1 0 0 0-.437.437C12 15.76 12 16.04 12 16.6v1.8c0 .56 0 .84.109 1.054a1 1 0 0 0 .437.437C12.76 20 13.04 20 13.6 20Zm4-11h1.8c.56 0 .84 0 1.054-.109a1 1 0 0 0 .437-.437C21 8.24 21 7.96 21 7.4V5.6c0-.56 0-.84-.109-1.054a1 1 0 0 0-.437-.437C20.24 4 19.96 4 19.4 4h-1.8c-.56 0-.84 0-1.054.109a1 1 0 0 0-.437.437C16 4.76 16 5.04 16 5.6v1.8c0 .56 0 .84.109 1.054a1 1 0 0 0 .437.437C16.76 9 17.04 9 17.6 9Z"
+    />
+  </svg>
+);
+
+export const ArticleIcon = ({height, width, props}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    fill="none"
+    viewBox="0 0 32 32"
+    {...props}
+  >
+    <g clipPath="url(#a)">
+      <path
+        stroke="#fff"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M7 25V2.005S7 1 8 1h22s1 .005 1 1.005v26S31 31 28 31H4s-3 .005-3-3.995v-15S1 11 2 11h2m9-4h5m-5 4h12m-12 4h12m-12 4h12m-12 4h12"
+      />
+    </g>
+    <defs>
+      <clipPath id="a">
+        <path fill="#fff" d="M0 0h32v32H0z" />
+      </clipPath>
+    </defs>
+  </svg>
+);
+
+export const CreateIcon = ({height, width, props}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="#fff"
+    stroke="#fff"
+    strokeWidth={1.2}
+    viewBox="0 0 21 21"
+    width={width}
+    height={height}
+    {...props}
+  >
+    <g
+      fill="none"
+      fillRule="evenodd"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M10 4.5H5.5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V11" />
+      <path d="M17.5 3.467a1.462 1.462 0 0 1-.017 2.05L10.5 12.5l-3 1 1-3 6.987-7.046a1.409 1.409 0 0 1 1.885-.104zM15.5 5.5l.953 1" />
+    </g>
+  </svg>
+);
+
+export const ExpIcon = ({height, width, props}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlSpace="preserve"
+    fill="#fff"
+    stroke="#fff"
+    strokeWidth={0.064}
+    viewBox="0 0 32 32"
+    width={width}
+    height={height}
+    {...props}
+  >
+    <path
+      d="M6.5 17h9.55c.245 1.694 1.688 3 3.45 3s3.205-1.306 3.45-3h2.55a2.5 2.5 0 0 0 2.454-2.046C29.67 14.729 31 13.277 31 11.5s-1.33-3.229-3.046-3.454A2.5 2.5 0 0 0 25.5 6h-6.55c-.245-1.694-1.688-3-3.45-3s-3.205 1.306-3.45 3h-2.1A3.49 3.49 0 0 0 6.5 3a3.5 3.5 0 1 0 0 7 3.49 3.49 0 0 0 3.45-3h2.101c.245 1.694 1.688 3 3.45 3s3.205-1.306 3.45-3h6.55c.672 0 1.236.447 1.426 1.058C25.268 8.333 24 9.764 24 11.5s1.268 3.167 2.926 3.442A1.497 1.497 0 0 1 25.5 16h-2.55c-.245-1.694-1.688-3-3.45-3s-3.205 1.306-3.45 3H6.5a2.5 2.5 0 0 0-2.454 2.046C2.33 18.271 1 19.723 1 21.5s1.33 3.229 3.046 3.454A2.5 2.5 0 0 0 6.5 27h2.55c.245 1.694 1.688 3 3.45 3s3.205-1.306 3.45-3h6.101a3.49 3.49 0 0 0 3.45 3 3.5 3.5 0 1 0-.001-7 3.49 3.49 0 0 0-3.45 3h-6.1c-.245-1.694-1.688-3-3.45-3s-3.205 1.306-3.45 3H6.5a1.497 1.497 0 0 1-1.426-1.058C6.732 24.667 8 23.236 8 21.5s-1.268-3.167-2.926-3.442A1.497 1.497 0 0 1 6.5 17zm0-9C5.673 8 5 7.327 5 6.5S5.673 5 6.5 5 8 5.673 8 6.5 7.327 8 6.5 8zm9 0c-.827 0-1.5-.673-1.5-1.5S14.673 5 15.5 5s1.5.673 1.5 1.5S16.327 8 15.5 8zM26 11.5c0-.827.673-1.5 1.5-1.5s1.5.673 1.5 1.5-.673 1.5-1.5 1.5-1.5-.673-1.5-1.5zM19.5 15c.827 0 1.5.673 1.5 1.5s-.673 1.5-1.5 1.5-1.5-.673-1.5-1.5.673-1.5 1.5-1.5zm6 10c.827 0 1.5.673 1.5 1.5s-.673 1.5-1.5 1.5-1.5-.673-1.5-1.5.673-1.5 1.5-1.5zm-13 0c.827 0 1.5.673 1.5 1.5s-.673 1.5-1.5 1.5-1.5-.673-1.5-1.5.673-1.5 1.5-1.5zM6 21.5c0 .827-.673 1.5-1.5 1.5S3 22.327 3 21.5 3.673 20 4.5 20s1.5.673 1.5 1.5z"
+      style={{
+        fill: "#fff",
+      }}
+    />
+  </svg>
+);
+
 FoxHeadIcon.propTypes = {
   height: PropTypes.string,
   width: PropTypes.string,
@@ -92,6 +197,36 @@ QuestionMarkIcon.propTypes = {
 };
 
 ContactIcon.propTypes = {
+  height: PropTypes.string,
+  width: PropTypes.string,
+  props: PropTypes.object,
+};
+
+HomeIcon.propTypes = {
+  height: PropTypes.string,
+  width: PropTypes.string,
+  props: PropTypes.object,
+};
+
+ProjectIcon.propTypes = {
+  height: PropTypes.string,
+  width: PropTypes.string,
+  props: PropTypes.object,
+};
+
+ArticleIcon.propTypes = {
+  height: PropTypes.string,
+  width: PropTypes.string,
+  props: PropTypes.object,
+};
+
+CreateIcon.propTypes = {
+  height: PropTypes.string,
+  width: PropTypes.string,
+  props: PropTypes.object,
+};
+
+ExpIcon.propTypes = {
   height: PropTypes.string,
   width: PropTypes.string,
   props: PropTypes.object,

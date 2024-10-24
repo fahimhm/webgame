@@ -2,20 +2,23 @@ import profile from '../assets/profile.jpeg';
 
 export default function MiniProfile() {
   return (
-    <div className='relative w-full max-w-[750px] xl:w-[344px] h-[448.188px] lg:h-[540px] xl:h-[640px] antialiased mx-auto rounded-2xl mb-8 py-[30px] px-5 border border-black'>
-    <div className='w-full h-full mx-auto rounded-2xl'>
-      <div className='w-full h-[46%] rounded-2xl mb-5 overflow-hidden border border-red-600'> {/*bg-gradient-to-t from-primaryAcc to-secondaryAcc border-4 border-primaryAcc*/}
-        <img src={profile} alt="myprofile" />
+    <div className="border border-black rounded-2xl py-[30px] px-5">
+      <div className='border  border-black rounded-2xl w-[260px] h-[210px] mx-auto overflow-hidden mb-6'>
+        <img src={profile} alt="myprofile" className='object-top' />
       </div>
-      <div className='text-3xl font-bold uppercase border border-black'>Fahim Maula</div>
-      <div className='px-2 mt-5 mb-3 mb-8 text-lg antialiased font-medium leading-none border border-blue-700 text-wrap'>A Web Dev who brings your designs and ideas to live.</div>
-      <div className='flex items-center justify-around mx-5 border border-red-600'>
-        <div className='mx-2 border border-yellow-500'>A</div>
-        <div className='mx-2 border border-yellow-500'>B</div>
-        <div className='mx-2 border border-yellow-500'>C</div>
-        <div className='mx-2 border border-yellow-500'>D</div>
+      <div className='w-full font-sans'>
+        <h1 className='mb-4 text-4xl font-bold px-9'>Fahim Maula</h1>
+        <div>
+          <p className='mb-4 text-base font-medium'>A web developer and data analyst who will bring you solutions</p>
+          <ul className='flex items-center justify-center px-16 space-x-4'>
+            <li><div className='w-8 p-[6px] border border-black aspect-square'></div></li>
+            <li><div className='w-8 p-[6px] border border-black aspect-square'></div></li>
+            <li><div className='w-8 p-[6px] border border-black aspect-square'></div></li>
+            <li><div className='w-8 p-[6px] border border-black aspect-square'></div></li>
+            <li><div className='w-8 p-[6px] border border-black aspect-square'></div></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
   );
 };
