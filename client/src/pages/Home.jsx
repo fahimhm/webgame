@@ -1,8 +1,4 @@
-import Dock from '../components/Dock';
-import MiniProfile from '../components/MiniProfile';
-import ContactMeForm from '../components/ContactMeForm';
-import Navbar from '../components/Navbar';
-import MainTitle from '../components/MainTitle';
+import { Navbar, MiniProfile, MainTitle, ContactMeForm, Dock, RecentProjects } from '../components';
 
 export default function Home() {
   return (
@@ -14,7 +10,7 @@ export default function Home() {
         <MiniProfile />
       </div>
       <div><MainTitle /></div>
-      <div id='project'>Projects</div>
+      <div id='project' className='mb-20'><RecentProjects /></div>
       <div id='experience'>Experience</div>
       <div id='article'>Article</div>
       <div id='contact'>
