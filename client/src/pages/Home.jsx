@@ -2,6 +2,7 @@ import Dock from '../components/Dock';
 import MiniProfile from '../components/MiniProfile';
 import ContactMeForm from '../components/ContactMeForm';
 import Navbar from '../components/Navbar';
+import MainTitle from '../components/MainTitle';
 
 export default function Home() {
   return (
@@ -9,10 +10,10 @@ export default function Home() {
       <div className='h-[100px] flex items-center justify-center'>
         <Navbar />
       </div>
-      <div id='home'>
+      <div id='home' className='mb-10'>
         <MiniProfile />
       </div>
-      <div>Title</div>
+      <div><MainTitle /></div>
       <div id='project'>Projects</div>
       <div id='experience'>Experience</div>
       <div id='article'>Article</div>
