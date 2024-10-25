@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 function ProjectItem({title, subtitle}) {
   return (
-    <li className='px-2 py-5 border border-dashed grid grid-cols-[90px_auto]'>
+    <li className='px-2 py-5 grid grid-cols-[90px_auto]'>
       <div className='border border-dashed aspect-square'>Img</div>
       <div className='flex flex-col items-start justify-center pl-3'>
         <h3>{title}</h3>
